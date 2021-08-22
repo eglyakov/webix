@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <title>Tags creater</title>
+</head>
+<body>
+  <div class="app">
+    <div class="menu">
+      <div class="tags-adder">
+        <input class="tags-adder__input" type="text" name="tagsInput" id="tagsInput" placeholder="Enter tags">
+        <button class="button btn-add">Add</button>
+      </div>
+
+      <div class="menu__mode">
+        <input class="input-check" type="checkbox" nama="readonlyMode" id="readonlyMode">
+        <label for="readonlyMode"></label>
+        <label class="input-check-caption" for="readonlyMode">Readonly Mode</label>
+      </div>
+    </div>
+    
+    <div class="tags">
+      <ul class="tags_list">
+      </ul>
+    </div>
+
+    <div class="btn-clear-wrapper">
+      <button class="button btn-clear">Clear</button>
+    </div>
+  </div>
+</body>
+</html>
